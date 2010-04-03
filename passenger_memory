@@ -2,6 +2,9 @@
 #
 # Be sure to configure this node in the plugin configuration and to set its file permissions to 755
 # Memory stats must be run by root
+#
+# If using Ruby Enterprise Edition, you might also want to symlink your Ruby binary to /usr/bin/ruby
+#
 # Ex:
 # [passenger_memory]
 # user root
